@@ -1,9 +1,12 @@
 'use strict';
 
-var _log = require('./log');
+var _path = require('path');
 
-var _log2 = _interopRequireDefault(_log);
+var _path2 = _interopRequireDefault(_path);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _log2.default)('hello');
+var log = function log(string) {
+  console.log(string);
+};
+log('hello world');

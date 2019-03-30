@@ -3,13 +3,13 @@ const webpack = require('webpack');
 module.exports = {
   entry: "./index.js",
   output: {
-    path: '__dirname',
+    path: __dirname,
     filename: './bundle.js'
   },
   module: {
-    rules: {
+    rules: [{
       test: /\.js$/,
       loader: 'babel-loader'
-    }
+    }]
   }
 };
