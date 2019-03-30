@@ -1,1 +1,3 @@
-console.log('hello');
+import log from './log'
+
+log('hello');
