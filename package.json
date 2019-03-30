@@ -1,0 +1,11 @@
+{
+  "name": "react-recipes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/schmitty890/react-recipes.git",
+  "author": "jschmitt <schmitty890@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  }
+}
