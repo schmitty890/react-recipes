@@ -13,6 +13,9 @@ module.exports = {
     rules: [{
       test: /\.js$/,
       loader: 'babel-loader'
+    },{
+      test: /\.(png|jpeg)$/,
+      loader: 'file-loader'
     }]
   },
   plugins: [

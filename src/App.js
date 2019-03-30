@@ -1,7 +1,12 @@
 import React from 'react';
+import Logo from './static/images/logo-placeholder.png';
 
+console.log(Logo);
 const App = () => (
-  <h1>hello werld</h1>
+  <div>
+    <h1>hello werld</h1>
+    <img src={Logo} />
+  </div>
 );
 
 export default App;
