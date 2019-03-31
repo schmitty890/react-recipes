@@ -1,6 +1,7 @@
 import React from 'react'
 
 const RecipeDetail = (props) => {
+  console.log('render RecipeDetail');
   if(!props.recipe) {
     return (
       <p style={props.style}>
