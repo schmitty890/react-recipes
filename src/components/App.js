@@ -7,15 +7,18 @@ fetch(`${API_URL}/v1/recipes`)
   .then(res => res.json())
   .then(json => console.log(json));
 
-const App = () => (
-  <div>
-    <Header />
-    <main style={{ display: 'flex' }}>
-      <RecipeList style={{ flex: 3 }} />
-      <RecipeDetail style={{ flex: 5 }} />
-    </main>
-
-  </div>
-);
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <main style={{ display: 'flex' }}>
+          <RecipeList style={{ flex: 3 }} />
+          <RecipeDetail style={{ flex: 5 }} />
+        </main>
+      </div>
+    );
+  }
+};
 
 export default App;
